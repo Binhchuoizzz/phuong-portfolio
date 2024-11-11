@@ -3,23 +3,23 @@ import Image from "next/image";
 const services = [
      {
           icon: "assets/services/icon-1.svg",
-          title: "Service 1",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper eros at ex scelerisque, at eleifend mauris convallis. Integer vel est vel nisi faucibus finibus."
-     },
-     {
-          icon: "assets/services/icon-2.svg",
-          title: "Service 2",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper eros at ex scelerisque, at eleifend mauris convallis. Integer vel est vel nisi faucibus finibus."
-     },
-     {
-          icon: "assets/services/icon-3.svg",
-          title: "Service 3",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper eros at ex scelerisque, at eleifend mauris convallis. Integer vel est vel nisi faucibus finibus."
+          title: "Business administration",
+          description: "'Chuyên viên quản trị kinh doanh với kinh nghiệm phát triển chiến lược, tối ưu hóa vận hành và quản lý nhóm. Tôi tập trung vào các giải pháp linh hoạt, đột phá để nâng cao hiệu quả kinh doanh và đạt mục tiêu tài chính. Kỹ năng lãnh đạo giúp tôi dẫn dắt đội ngũ phát triển và đạt thành công bền vững.'"
      },
      {
           icon: "assets/services/icon-4.svg",
-          title: "Service 4",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper eros at ex scelerisque, at eleifend mauris convallis. Integer vel est vel nisi faucibus finibus."
+          title: "Advertising strategist",
+          description: "'Chuyên viên chiến lược quảng cáo với kinh nghiệm phân tích thị trường và hành vi khách hàng, xây dựng chiến dịch sáng tạo tối ưu chi phí. Tôi tập trung vào thông điệp độc đáo, tăng nhận diện thương hiệu và thúc đẩy doanh thu qua các chiến dịch đa kênh.'"
+     },
+     {
+          icon: "assets/services/icon-2.svg",
+          title: "Accountant",
+          description: "'Kế toán viên giàu kinh nghiệm với khả năng xử lý dữ liệu chính xác, quản lý ngân sách và lập báo cáo toàn diện. Tôi tập trung vào nâng cao hiệu suất và duy trì minh bạch tài chính, sẵn sàng đóng góp vào sự phát triển bền vững của doanh nghiệp.'"
+     },
+     {
+          icon: "assets/services/icon-3.svg",
+          title: "Logistician",
+          description: "'Chuyên viên logistics với nền tảng vững chắc trong quản lý chuỗi cung ứng, tối ưu vận tải và kiểm soát hàng tồn kho. Tôi có kinh nghiệm đảm bảo hàng hóa vận chuyển đúng thời gian, tối ưu chi phí và linh hoạt ứng phó với thay đổi thị trường để tối ưu hiệu suất và giảm thiểu rủi ro cho doanh nghiệp.'"
      },
 ]
 const Services = () => {
@@ -30,7 +30,7 @@ const Services = () => {
                     gap-[20px] -top-12 place-items-center lg:place-items-stretch">
                          {services.map((service, index) => {
                               return (
-                                   <li key={index} className="bg-white shadow-custom p-6 max-w-[350px] md:max-w-none
+                                   <li key={index} className="bg-pink-50 shadow-custom p-6 max-w-[350px] md:max-w-none
                                    rounded-lg">
                                         <Image
                                              src={service.icon}
