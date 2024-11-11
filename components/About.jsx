@@ -20,7 +20,7 @@ const About = () => {
                                    <div className="rounded-tl-[8px] rounded-tr-[120px] w-full bg-pink-50
                                    min-h-[480px] flex items-end justify-center">
                                         <Image
-                                             src="/assets/about/jpg.jpg"
+                                             src="/assets/about/img.jpg"
                                              width={290}
                                              height={478}
                                              quality={100}
@@ -60,11 +60,11 @@ const About = () => {
                          <div className="text-center xl:text-left w-full xl:w-[50%] mx-auto xl:mx-0
                          flex flex-col gap-6">
                               <div>
-                                   <AnimatedText text="Tôi tên là Nguyễn Vũ Việt Phương" textStyles="h2 mb-2" />
-                                   <i className="text-lg">Tôi từng là sinh viên chuyên ngành Kinh Doanh Quốc Tế.</i>
+                                   <AnimatedText text="Tên mình là Nguyễn Vũ Việt Phương" textStyles="h2 mb-2" />
+                                   <i className="text-lg">Mình từng là sinh viên chuyên ngành Kinh Doanh Quốc Tế.</i>
                               </div>
                               <p className="max-w-[600px] mx-auto xl:mx-0 mb-2">
-                                   Với nền tảng chuyên môn về kinh tế học và logistics, tôi kết hợp khả năng phân tích tài chính, dự báo thị trường và quản lý chuỗi cung ứng để đem lại giá trị bền vững cho doanh nghiệp. Kinh nghiệm trong phân tích dữ liệu và hoạch định logistics giúp tôi tối ưu hóa quy trình vận hành, đảm bảo hàng hóa lưu thông hiệu quả và giảm thiểu chi phí. Tôi cam kết mang đến giải pháp kinh tế và logistics toàn diện, hỗ trợ doanh nghiệp đạt được các mục tiêu phát triển.
+                                   Với nền tảng chuyên môn về kinh tế học và logistics, mình kết hợp khả năng phân tích tài chính, dự báo thị trường và quản lý chuỗi cung ứng để đem lại giá trị bền vững cho doanh nghiệp. Kinh nghiệm trong phân tích dữ liệu và hoạch định logistics giúp mình tối ưu hóa quy trình vận hành, đảm bảo hàng hóa lưu thông hiệu quả và giảm thiểu chi phí. mình cam kết mang đến giải pháp kinh tế và logistics toàn diện, hỗ trợ doanh nghiệp đạt được các mục tiêu phát triển.
                               </p>
                               {/* info item */}
                               <div className="flex flex-col lg:flex-row gap-8 xl:gap-12 max-w-max

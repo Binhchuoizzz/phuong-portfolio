@@ -20,7 +20,7 @@ const Hero = () => {
                               <span className="text-accent">I Have Experience </span>And Work In
                               <TypeAnimation
                                    preRenderFirstString={true}
-                                   sequence={["Logistics", 2000, "Economists", 2000]}
+                                   sequence={["Logistics!", 2000, "Economists!", 2000]}
                                    speed={50}
                                    repeat={Infinity}
                                    wrapper="span"
@@ -28,9 +28,9 @@ const Hero = () => {
                                    className="ml-2 xl:ml-4"
                               />
                          </h1>
-                         <p className="lead max-w-[467px] mb-7">As an innovation and efficiency oriented person, I have developed strategies to improve the flow of goods and optimize processes from input to output, contributing positively to business growth and building sustainable relationships with domestic and foreign partners.</p>
+                         <p className="lead max-w-[467px] mb-7">Là người hướng đến sự đổi mới và hiệu quả, mình đã xây dựng các chiến lược để cải thiện luồng hàng hóa và tối ưu hóa quy trình từ đầu vào đến đầu ra, đóng góp tích cực vào tăng trưởng kinh doanh và xây dựng mối quan hệ bền vững với các đối tác trong và ngoài nước.</p>
                          <ScrollLink to="contact" smooth>
-                              <button className="btn btn-accent mb-8">Contact me</button>
+                              <button className="btn btn-accent mb-8">Liên hệ với mình tại đây 😁</button>
                          </ScrollLink>
                          {/* stats */}
                          <Stats />
