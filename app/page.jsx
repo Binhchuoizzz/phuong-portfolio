@@ -7,6 +7,7 @@ import Journey from "@/components/Journey";
 import Work from "@/components/Work";
 import Contact from "@/components/Contact";
 import { useEffect } from "react";
+import FixedMenu from "@/components/FixedMenu";
 
 export default function Home() {
   // implement locomotive scroll
@@ -21,6 +22,7 @@ export default function Home() {
   return (
     <div>
       <Hero />
+      <FixedMenu />
       <Services />
       <About />
       <Journey />

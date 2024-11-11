@@ -6,10 +6,11 @@ import { Link as ScrollLink } from "react-scroll";
 // components
 import RotatingShape from "./RotatingShape";
 import Header from "./Header";
+import Stats from "./Stats/Stats";
 
 const Hero = () => {
      return (
-          <section className="h-[800px] relative bg-accent/10 xl:bg-white">
+          <section className="h-[800px] relative bg-accent/10 xl:bg-white" id="home">
                {/* header */}
                <Header />
                <div className="container mx-auto h-full">
@@ -32,16 +33,25 @@ const Hero = () => {
                               <button className="btn btn-accent mb-8">Contact me</button>
                          </ScrollLink>
                          {/* stats */}
-                         <div>stats</div>
+                         <Stats />
                     </div>
                     {/* image */}
                     <div className="hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-accent/50">
-                         <div className="absolute w-[558px] h-[642px] bottom-0 z-40 left-[6.5vw]">
-                              <Image src="/assets/hero/dev.jpg" fill quality="100" priority
-                                   className="object-contain" />
+                         <div className="absolute w-[558px] h-[642px] bottom-0 z-40 left-[6.75vw]">
+                              <Image
+                                   src="/assets/hero/dev.jpg"
+                                   fill quality="100"
+                                   priority
+                                   className="object-contain"
+                                   alt="Đây là bé Phương thúi"
+                              />
                          </div>
                          {/* arrow shape */}
-                         <div className="hidden xl:flex absolute top-48 left-[1vw]">
+                         <div
+                              className="hidden xl:flex absolute top-48 left-[1vw]"
+                              data-scroll
+                              data-scroll-speed="0.05"
+                         >
                               <Image
                                    src="/assets/hero/arrow.svg"
                                    width={160}
@@ -50,7 +60,10 @@ const Hero = () => {
                               />
                          </div>
                          {/* shape 1 */}
-                         <div className="absolute top-[600px] left-[3vw]">
+                         <div className="absolute top-[600px] left-[3vw]"
+                              data-scroll
+                              data-scroll-speed="0.2"
+                         >
                               <RotatingShape
                                    content={
                                         <Image
@@ -65,7 +78,10 @@ const Hero = () => {
                               />
                          </div>
                          {/* shape 2 */}
-                         <div className="absolute top-[240px] xl:left-[35vw]">
+                         <div className="absolute top-[240px] xl:left-[35vw]"
+                              data-scroll
+                              data-scroll-speed="0.1"
+                         >
                               <RotatingShape
                                    content={
                                         <Image
@@ -80,7 +96,10 @@ const Hero = () => {
                               />
                          </div>
                          {/* shape 3 */}
-                         <div className="absolute top-[480px] xl:left-[40vw]">
+                         <div className="absolute top-[480px] xl:left-[40vw]"
+                              data-scroll
+                              data-scroll-speed="0.08"
+                         >
                               <RotatingShape
                                    content={
                                         <Image
