@@ -148,7 +148,7 @@ const Contact = () => {
                                         </label>
                                         <input
                                              onChange={handleChange}
-                                             type="text"
+                                             type="number"
                                              id="phone"
                                              name="phone"
                                              value={formData.phone}

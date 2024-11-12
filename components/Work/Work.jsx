@@ -75,6 +75,7 @@ const Work = () => {
           // adjust the number to control how many items are loaded at a time
           setVisibleItems((prev) => prev + 2);
      };
+
      return (
           <section className='pt-24 min-h-[1000px]' id='work'>
                <div className="container mx-auto">
