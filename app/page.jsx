@@ -8,6 +8,7 @@ import Work from "@/components/Work/Work";
 import Contact from "@/components/Contact";
 import { useEffect } from "react";
 import FixedMenu from "@/components/FixedMenu";
+import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   // implement locomotive scroll
@@ -27,6 +28,7 @@ export default function Home() {
       <About />
       <Journey />
       <Work />
+      <Testimonial />
       <Contact />
       {/* temporary div */}
       <div className="h-[3000px]"></div>
