@@ -30,7 +30,6 @@ const Hero = () => {
                          </h1>
                          <p className="lead max-w-[467px] mb-7">Là người hướng đến sự đổi mới và hiệu quả, mình đã xây dựng các chiến lược để cải thiện luồng hàng hóa và tối ưu hóa quy trình từ đầu vào đến đầu ra, đóng góp tích cực vào tăng trưởng kinh doanh và xây dựng mối quan hệ bền vững với các đối tác trong và ngoài nước.</p>
                          <ScrollLink to="contact" smooth className="flex flex-row gap-12">
-                              <button className="btn btn-accent mb-8"><b>Contact me </b></button>
                          </ScrollLink>
                          {/* stats */}
                          <Stats />
